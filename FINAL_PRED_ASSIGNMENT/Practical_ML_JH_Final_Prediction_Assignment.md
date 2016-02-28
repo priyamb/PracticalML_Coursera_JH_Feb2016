@@ -169,7 +169,7 @@ modDTfit <- train(classe~.,method="rpart",data=modTRNSample)
 ```
 
 _Figure 2_ shows the tree that has been grown out of the step above:
-![plot of chunk dtreePlot](figure/dtreePlot-1.png)
+[plot of chunk dtreePlot](figure/dtreePlot-1.png)
 
 
 As we see above in _Figure 2_, this approach creates a very easily interpretable classification mechanism. _For example_, in the above, *roll_belt < 130* and *pitch_forearm < -26* combination captures 9% of observations and 96% of those have a classe or activity recognized as "A". We'll now see how this method performs on the model testing subset. We'll mainly look at the confusion matrix and accuracy.
