@@ -69,7 +69,7 @@ The training dataset which will be used for fitting our model contains 19,622 ob
 ###__Analysis of Raw Data__
 
 Let us also take a look at the distribution of the target variable "Classe" in _Figure 1_ below from the raw training data:
-![plot of chunk plot_target_rawTRN](https://github.com/priyamb/PracticalML_Coursera_JH_Feb2016/FINAL_PRED_ASSIGNMENT/figure/plot_target_rawTRN-1.png)
+![plot of chunk plot_target_rawTRN](figure/plot_target_rawTRN-1.png)
 
 From the above _Figure 1_, the target seems to be a clean variable. Class "A" forms the bulk of numbers while the rest of the classes are almost similar in distribution. With that, let us focus our attention to the predictors.
 
