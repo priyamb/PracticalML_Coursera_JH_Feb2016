@@ -6,6 +6,8 @@ date: "February 27, 2016"
 output: html_document
 ---
 
+GitHub Repo for this Project: [Practical ML Course Assignment GitHUb Repo](https://github.com/priyamb/PracticalML_Coursera_JH_Feb2016/tree/master/FINAL_PRED_ASSIGNMENT)
+
 ###__Introduction__
 This markdown document has been created to document all the steps followed to complete and submit the final project of the __Practical Machine Learning__ course offered by [__John Hopkins University__](https://www.jhu.edu/) via the [Coursera](https://www.coursera.org/) online platform. This document highlights the steps I followed in analysing the data, preprocessing and finally testing a couple of prediction techniques taught in the class to find out the most effective prediction solution.
 
