@@ -272,10 +272,6 @@ modRFfit
 We can represent the random forest variable importance in the following list and diagram in _Figure 3_:
 
 
-```r
-varImp(modRFfit)
-```
-
 ```
 ## rf variable importance
 ## 
@@ -304,11 +300,7 @@ varImp(modRFfit)
 ## magnet_belt_x          9.921
 ```
 
-```r
-plot(modRFfit,log="y")
-```
-
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+![plot of chunk varImp_Plot](figure/varImp_Plot-1.png)
 
 So, as usual, now we'll test this algorithm on the model testing dataset and see how accurate a prediction mechanism it is.
 

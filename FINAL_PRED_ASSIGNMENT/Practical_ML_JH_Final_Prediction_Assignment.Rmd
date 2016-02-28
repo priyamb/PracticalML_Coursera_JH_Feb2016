@@ -162,7 +162,7 @@ The above shows a 49% accuracy which is poor and definitely has scope of improve
 
 #####__Method 2: Random Forest__
 
-The _Random Forest_ mechanism extends the boosted aggregation technique on the classification/regression trees. This method, although is a bit more complex than the decision tree approach, it is one of the most accurate prediction mechanisms used.
+The _Random Forest_ mechanism extends the boosted aggregation technique on the classification/regression trees. This method, although is a bit more complex than the decision tree approach, it is one of the most accurate prediction mechanisms used. It takes care of correlations of predictors and outliers and hence is more robust. To assess different features of the data, we shall use a __5-fold cross validation__.
 
 ```{r buildRF}
 modRFfit <- train(classe~.,method="rf",data=modTRNSample,trControl=trainControl(method="cv",n=5),tree=250)
@@ -172,7 +172,7 @@ modRFfit
 
 We can represent the random forest variable importance in the following list and diagram in _Figure 3_:
 
-```{r}
+```{r varImp_Plot, echo=FALSE}
 varImp(modRFfit)
 plot(modRFfit,log="y")
 ```
